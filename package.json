@@ -1,0 +1,17 @@
+{
+  "name": "coding-interview-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:all": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "npm run dev --prefix frontend",
+    "start:backend": "npm run start:dev --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
