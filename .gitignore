@@ -1,1 +1,63 @@
+# ====================
+# Global
+# ====================
 node_modules/
+.env
+.env.*             # .env.local, .env.development, etc
+dist/
+build/
+coverage/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# ====================
+# Frontend (React/Vite/Next.js)
+# ====================
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+frontend/.cache/
+frontend/out/
+frontend/public/build/
+
+# Vite specific
+frontend/.vite/
+
+# ====================
+# Backend (NestJS/Express)
+# ====================
+backend/dist/
+backend/.cache/
+backend/.turbo/
+
+
+# ====================
+# OS / Editor
+# ====================
+Thumbs.db
+ehthumbs.db
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ====================
+# Others (optional)
+# ====================
+*.local
+*.tgz
+*.sqlite
+*.sqlite3
+
+# ====================
+# Optional: Ignore test snapshots
+# ====================
+__snapshots__/
